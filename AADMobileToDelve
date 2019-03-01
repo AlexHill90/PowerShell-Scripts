@@ -8,7 +8,7 @@ Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensi
 Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.UserProfiles.dll'
 
 # Defaults
-$spoAdminUrl = "https://tenantname.sharepoint.com"
+$spoAdminUrl = "https://tenantname-admin.sharepoint.com"
 $overwriteExistingSPOUPAValue = "False"
 
 # Get credentials of account that is AzureAD Admin and SharePoint Online Admin
